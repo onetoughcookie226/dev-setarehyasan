@@ -1,0 +1,11 @@
+.main-container {
+    background-color: lightgray;
+    width: 460px;
+    position: absolute;
+    top: 15%;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
