@@ -1,19 +1,38 @@
 .sy-main-container {
-     background-color: #f1f1f1;
+     /*background-color: #f1f1f1;*/
     /*position: absolute;*/
     height: 650px;
     top: 15%;
     padding: 0;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+
+.name {
+    margin: auto;
+
+}
+
  .name h1{
     zoom: 1;
     cursor: pointer;
     color: rgb(0, 0, 0);
-    font-family: "Times New Roman";
+    font-family: 'Reenie Beanie';
     font-size: 30px;
      margin: 15px;
+     text-align: center;
 }
+
+ .name p {
+     text-transform: capitalize;
+     font-family: 'Bubbler One', sans-serif;
+     text-align: center;
+ }
 
 ul {
     list-style-type: none;
