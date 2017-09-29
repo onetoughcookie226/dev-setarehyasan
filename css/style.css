@@ -43,18 +43,28 @@ img {
      text-transform: capitalize;
      /*font-family: 'Bubbler One', sans-serif;*/
      text-align: center;
+     color: black;     
+         
  }
 
-ul {
+ .nav {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+   
+ }
+
+/* ul {
     list-style-type: none;
     text-decoration: underline;
     font-size: 24px;
     font-family: 'Lora', serif;
 
-}
+} */
 
 a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 
