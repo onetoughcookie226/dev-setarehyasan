@@ -1,22 +1,17 @@
 
 body {
 	background-color: #fcfcfc;
-	/* font-family: "Karla",sans-serif; */
+	/* font-family: "Karla",sans-serif Open Sans', sans-serif; */
 }
+
 .name {
     margin: 120px 60px 30px 60px;
 }
 .name > h1 {
-    font-family: 'Reenie Beanie';
+	/* font-family: 'Reenie Beanie'; */
+	font-family: 'Exo 2', sans-serif;
     color: #57574A !important; 
-    font-size: 3em;
-   
-}
-
-P {
-	/* font-family: "Karla",sans-serif; */
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
+    font-size: 2em; 
 }
 
 h1 > a {
@@ -29,16 +24,35 @@ h1 > a {
         font-size: 2em;
      }
 
-.nav > h4 {
+.nav  h4 {
 	line-height: 20px;
-	font-weight: 400;
-	text-transform: uppercase;
+	font-weight: 200;
+	/* text-transform: uppercase; */
 	/* font-family: "Karla",sans-serif; */
+	font-family: 'Exo 2', sans-serif;
 }
 	
 .nav > h3 {
 	font-weight: 400;
 	line-height: 15px;
+}
+
+ul {
+	list-style-type: none;
+  }
+
+li {
+	font-family: "Karla",sans-serif;
+	font-weight: 700;
+	line-height: 24px;
+	font-size: 14px;
+	position: center;
+
+}  
+
+li span {
+	color: lightslategray;
+	font-weight: 200;
 }
 
 a {
@@ -49,6 +63,13 @@ a {
 .widget {
     margin: 60px 40px 0 30px;
 } 
+
+.widget p {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;	
+	
+
+}
 
 img {
     width: 100%;
